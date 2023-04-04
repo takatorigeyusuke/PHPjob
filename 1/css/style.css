@@ -77,6 +77,13 @@
     } */
     .header {
         width: 200px;
+        height: 200px;
+    }
+    .box {
+        width: 60px;
+        height: 160px;
+        display: block;
+        margin-right: 70px;
     }
    .main {
     width: 200px;
