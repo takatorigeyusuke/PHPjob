@@ -77,7 +77,6 @@
     } */
     .header {
         width: 200px;
-        height: 200px;
     }
     .box {
         width: 60px;
@@ -95,6 +94,12 @@
    .right {
     width: 200px;
    }
+   .box4 {
+    margin-left: 30px;
+   }
+   .box4:first-child {
+    margin-top: 20px;
+}
    .footer {
     width: 200px;
    }
