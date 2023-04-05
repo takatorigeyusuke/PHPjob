@@ -25,22 +25,9 @@
     background-color: #a9004b;
    
 }
-.box2 {
-    width: 40px;
-    height: 40px;
-    background-color: #a9004b;
-    
-}
-.box3 {
-    width: 40px;
-    height: 40px;
-    background-color: #a9004b;
-   
-}
 .main {
     width: 400px;
     height: 250px;
-    background-color: #141f40;
     display: flex;
 }
 .left {
@@ -53,7 +40,7 @@
     height: 250px;
     background-color: #8c2727;
 }
-.box4 {
+.box2 {
     width: 140px;
     height: 40px;
     background-color: #ff863f;
@@ -61,7 +48,7 @@
     margin-top: 10px;
     margin-left: 40px;
 }
-.box4:first-child {
+.box2:first-child {
     margin-top: 40px;
 }
 
@@ -77,32 +64,41 @@
     } */
     .header {
         width: 200px;
+        height: 200px;
     }
     .box {
         width: 60px;
         height: 160px;
         display: block;
-        margin-right: 70px;
-        justify-content: space-around;
-        align-items: center;
+        margin: 0 auto;
     }
+
+    .box1 {
+    margin: 10px;
+    }
+
    .main {
-    width: 200px;
+    /* width: 200px; */
     display: block;
    }
    .left {
     width: 200px;
+    height: 100px;
    }
    .right {
     width: 200px;
+    height: 200px;
+    padding-top: 20px;
    }
-   .box4 {
+   .box2 {
     margin-left: 30px;
    }
-   .box4:first-child {
-    margin-top: 20px;
+   .box2:first-child {
+    margin-top: 0px;
 }
    .footer {
     width: 200px;
+    position: relative;
+    top: 60px
    }
 }
